@@ -42,7 +42,7 @@ function Home() {
         rpcTarget: RPC_URL
       },
       uiConfig: {
-        theme: 'dark',
+        //theme: 'dark',
         loginMethodsOrder: ['google', 'facebook']
       }
     }
@@ -68,7 +68,7 @@ function Home() {
       adapterSettings: {
         uxMode: 'popup',
         whiteLabel: {
-          name: 'Safe'
+          //name: 'Safe'
         }
       }
     })
