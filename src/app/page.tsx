@@ -22,7 +22,7 @@ function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const [isSignedIn, setIsSignedIn] = useState(false);
 
-  const WEB3AUTH_CLIENT_ID = 'BP8Z3802JH0wJQhKBRF1kEbeELMrM0h-Ac4xZpvXzezfIEKxvsDJJkBGzaVsbMSqIVLrUOeikazIpEGfn2tFLJw' // https://dashboard.web3auth.io/
+  const WEB3AUTH_CLIENT_ID = PUT_YOUR_WEB3_AUTH_CLIENT_HERE // https://dashboard.web3auth.io/
   const RPC_URL = 'https://sepolia-rpc.scroll.io/' // https://chainlist.org/
   const CHAIN_ID = '0x8274F' //534351
 
