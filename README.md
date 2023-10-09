@@ -1,36 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Safe recently launched an Account Abtraction authtentication kit that allows signing to dApps using socials such as Google, Facebook, Github, etc... This repo is a demo for integrating the Safe Auth Kit modal using Web3Auth under the hood.
 
-## Getting Started
+## Running
 
-First, run the development server:
+1. Create a [Web3Auth account](https://dashboard.web3auth.io/), and put your client key in the [WEB3AUTH_CLIENT_ID](todo) variable
+2. Run `npm install` to install dependencies
+3. Run `npm run dev` to run your dApp at `localhost:3000` on your browser
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Official docs
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* [Scroll docuemntation](https://docs.scroll.io/en/developers/)
+* [Safe documentation](https://docs.safe.global/safe-core-aa-sdk/auth-kit)

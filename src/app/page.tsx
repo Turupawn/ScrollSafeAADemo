@@ -42,7 +42,9 @@ function Home() {
         rpcTarget: RPC_URL
       },
       uiConfig: {
-        //theme: 'dark',
+        theme: {
+          primary: "dark"
+        },
         loginMethodsOrder: ['google', 'facebook']
       }
     }
