@@ -76,7 +76,7 @@ function Home() {
     })
 
     const web3AuthConfig: Web3AuthConfig = {
-      txServiceUrl: 'https://safe-transaction-goerli.safe.global'
+      txServiceUrl: 'https://transaction-testnet.safe.scroll.xyz'
     }
 
     // Instantiate and initialize the pack
@@ -115,7 +115,7 @@ function Home() {
 
   const handleSignIn = async () => {
     const authKitSignData = await getWeb3AuthModalPack.signIn()
-    console.log(authKitSignData.eoa)
+    console.log(authKitSignData)
     if(authKitSignData.eoa)
     {
       setAccount(authKitSignData.eoa)
